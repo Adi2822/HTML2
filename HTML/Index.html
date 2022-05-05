@@ -1,0 +1,164 @@
+<html>
+<head><title></title>
+<style>
+h4:hover{
+background-color: BBB9B9;
+}
+hr{
+height:1px;
+border-width:0;
+background-color:505252;
+}
+.boxheight{
+  height:30px;
+  width:700px;
+  background-color: black;
+  color: 555857;
+  font-size:18px;
+}
+td{
+  color:white;
+  font-family: Georgia;
+  padding: 6px;
+}
+
+h4 {font-family: "Roboto","Arial",sans-serif;}
+</style>
+<script type="text/javascript">
+function Enlarge(x)
+{
+  x.style.width="385px";
+  x.style.height="215px";
+}
+function Normal(x)
+{
+  x.style.width="370px";
+  x.style.height="200px";
+}
+ 
+ function sayhello()
+{
+ alert("Hello");
+}
+function Validation() {
+  
+  let x = document.getElementById("numb").value;
+  let text;
+  if (isNaN(x) || x < 1 || x > 10) {
+    text = "Input not valid";
+  } else {
+    text = "Input accepted";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+</head>
+<body>
+<div style="float:left; background-color: 222323; color: white; padding: 0.5%;">
+<p style="font-size:20px"><a href="https://www.youtube.com/"><img src="D:\Game dev\HTML\yt.png" width="35" height="25"></a>YouTube</p>
+<hr>
+<h4>Home</h4>
+<h4> Explore </h4>
+<h4> Shorts </h4>
+<h4> Subscriptions </h4>
+<hr>
+
+<h4> Library </h4>
+<h4> History </h4>
+<h4> Your videos </h4>
+<h4> Watch later </h4>
+<h4> Liked videos </h4>
+<hr>
+
+<h3 style="font-family: Georgia; color: 797C7C;">SUBSCRIPTIONS</h3>
+<h4> Seamedu </h4>
+<h4> Valorant </h4>
+<h4> Ankit panth </h4>
+<h4> Tenz</h4>
+<h4> Hydraflick </h4>
+<h4> mw1 </h4>
+<hr>
+<h4> Settings </h4>
+<h4> Report history </h4>
+<h4> Help </h4>
+<h4> Feedback </h4>
+<hr>
+<p>About Press Copyright Contact us</p>
+<p>Creators Advertise Developers</p>
+</div>
+
+<div style="float:center; background-color: 181818; color: white; padding: 0.5%;">
+<p>Enter a number between 1 to 10</p>
+<input id="numb">
+<button type="button" onclick="Validation()">Submit</button>
+<p id="demo"></p>
+
+<h1 style="text-align:center;"><input class="boxheight" type="text" name="Searchbar" placeholder="Search">
+<a href="https://www.youtube.com/account"><img src="D:\Game dev\HTML\acc.png" width=37px height=37px align="right"></a>
+</h1>
+<hr>
+<h3>All</h3>
+<hr>
+<table>
+<tr>
+<td><img src="D:\Game dev\HTML\unreal.png" width=370px height=200px onmouseover="Enlarge(this)" onmouseout="Normal(this)"></td>
+<td><img src="D:\Game dev\HTML\valo.jpg" width=370px height=200px onmouseover="Enlarge(this)" onmouseout="Normal(this)"></td>
+<td><img src="D:\Game dev\HTML\maxresdefault.jpg" width=370px height=200px onmouseover="Enlarge(this)" onmouseout="Normal(this)"></td>
+<td><img src="D:\Game dev\HTML\0.jpg" width=370px height=200px onmouseover="Enlarge(this)" onmouseout="Normal(this)"></td>
+</tr>
+<tr>
+<td style="font-size:18px;"> Introduction to Unreal engine and understanding blueprints #UnrealEngine #Blueprints</td>
+<td style="font-size:18px;"> Valorant Cypher gameplay | Tips and tricks come watch #Valorant #Sentinel </td>
+<td style="font-size:18px;"> Valorant Live India New Update #Phoneix #Valorant #FadeMains</td>
+<td style="font-size:18px;"> Eating street food for the whole day in Pune #Food #Blogging #Pune</td>
+</tr>
+<tr>
+<td>1.2M views</td>
+<td>655k views</td>
+<td>1M views</td>
+<td>2.8M views</td>
+</tr>
+<tr>
+<td><img src="D:\Game dev\HTML\apex.jpg" width=370px height=200px onmouseover="Enlarge(this)" onmouseout="Normal(this)"></td>
+<td><img src="D:\Game dev\HTML\pubg.jpg" width=370px height=200px onmouseover="Enlarge(this)" onmouseout="Normal(this)"></td>
+<td><img src="D:\Game dev\HTML\ff.jpg" width=370px height=200px onmouseover="Enlarge(this)" onmouseout="Normal(this)"></td>
+<td><img src="D:\Game dev\HTML\cod.png" width=370px height=200px onmouseover="Enlarge(this)" onmouseout="Normal(this)"></td>
+</tr>
+<tr>
+<td  style="font-size:18px;"> Introduction to Unreal engine and understanding blueprints #UnrealEngine #Blueprints</td>
+<td  style="font-size:18px;"> Valorant Cypher gameplay | Tips and tricks come watch #Valorant #Sentinel </td>
+<td  style="font-size:18px;"> Valorant Live India New Update #Phoneix #Valorant #FadeMains</td>
+<td  style="font-size:18px;"> Eating street food for the whole day in Pune #Food #Blogging #Pune</td>
+</tr>
+<tr>
+<td>4M views</td>
+<td>2.2M views</td>
+<td>1.6M views</td>
+<td>789K views</td>
+</tr>
+<tr>
+<td><img src="D:\Game dev\HTML\ft.jpg" width=370px height=200px></td>
+<td><img src="D:\Game dev\HTML\images.jpg" width=370px height=200px ></td>
+<td><img src="D:\Game dev\HTML\ftt.png" width=370px height=200px ></td>
+<td><img src="D:\Game dev\HTML\games.jpg" width=370 px height=200px ></td>
+</tr>
+<tr>
+<td style="font-size:18px;"> Introduction to Unreal engine and understanding blueprints #UnrealEngine #Blueprints</td>
+<td style="font-size:18px;"> Valorant Cypher gameplay | Tips and tricks come watch #Valorant #Sentinel </td>
+<td style="font-size:18px;"> Valorant Live India New Update #Phoneix #Valorant #FadeMains</td>
+<td style="font-size:18px;"> Eating street food for the whole day in Pune #Food #Blogging #Pune</td>
+</tr>
+<tr>
+<td>3.5M views</td>
+<td>982K views</td>
+<td>2.8M views</td>
+<td>1.3M views</td>
+</tr>
+</table>
+
+
+
+
+</div>
+</body>
+</html>
